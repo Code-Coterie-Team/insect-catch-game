@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .screen {
@@ -53,4 +53,33 @@ body{
 
 .playBtn:hover{
     opacity: 0.9;
+}
+
+.insects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+}
+
+.insects li{
+    margin: 10px;
+}
+
+.chooseInsectBtn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    width: 150px;
+    height: 150px;
+}
+
+.chooseInsectBtn:hover{
+    background-color: #fff;
+    color: #516dff;
 }
