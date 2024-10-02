@@ -13,9 +13,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.7s ease-out;
+}
+
+/* to make the feeling that the first page is going up */
+.screen.up {
+    margin-top: -100vh;
 }
 
 .header{
@@ -28,7 +42,7 @@ body{
     font-weight: bold;
 }
 
-.btn{
+.playBtn{
     font-family: inherit;
     border: 0;
     background-color: #FFF;
@@ -37,6 +51,6 @@ body{
     cursor: pointer;
 }
 
-.btn:hover{
+.playBtn:hover{
     opacity: 0.9;
 }
