@@ -35,7 +35,7 @@ body{
 
 .header{
     line-height: 1.4;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -48,7 +48,7 @@ body{
     border: 0;
     background-color: #FFF;
     color: #516dff;
-    padding: 15px 20px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -83,4 +83,10 @@ body{
 .chooseInsectBtn:hover{
     background-color: #fff;
     color: #516dff;
+}
+
+.chooseInsectBtn img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
